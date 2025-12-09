@@ -47,7 +47,7 @@ if cmd != "start":
     slow("Command not recognized. Shutting down.", 0.03)
     sys.exit()
 
-slow("\nStarting WiFi Tracking...\n", 0.03)
+slow("\nStarting WiFi Tracking...\n", 0.05)
 time.sleep(0.4)
 
 steps = [
@@ -67,7 +67,7 @@ for s in steps:
 
 print(f"\n{G}[✓] Wifi Berhasil Di Retas{W}")
 time.sleep(0.4)
-print(f"{R}❌{G} [✓] Data Wifi Akan Di Kirim...{W}\n")
+print(f"{R}[✓]{G}Data Wifi Akan Di Kirim...{W}\n")
 time.sleep(0.8)
 
 ssid_fake = random.choice([
