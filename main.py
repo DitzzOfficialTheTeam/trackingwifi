@@ -29,7 +29,7 @@ def bar():
         time.sleep(0.06 + random.random()*0.05)
     print()
 
-fake_pw = "04121979"
+fake_pw = "Jm168hav"
 
 ip = input(f"{G}INPUT IP TARGET : {W}") or "192.168.1.1"
 time.sleep(0.4)
@@ -43,7 +43,7 @@ time.sleep(0.6)
 slow("\nEnter Command :", 0.03)
 cmd = input(f"{G}> {W}").lower()
 
-if cmd != "tracking in wifi":
+if cmd != "start":
     slow("Command not recognized. Shutting down.", 0.03)
     sys.exit()
 
